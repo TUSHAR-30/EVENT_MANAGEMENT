@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:3000/api/v1/message/send",
+        "https://expensive-toad-cummerbund.cyclic.app/api/v1/message/send",
         {
           name,
           email,
